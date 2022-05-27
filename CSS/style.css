@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+.parent {
+    display: flex;
+}
+
+.sideBAR{
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(31, 118, 231, 0.795);
+
+    
+
+}
+
+.sidebar-pos{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 19%;
+
+}
+
+.img-sidebar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 8px solid #727274;
+    
+    
+}
+.menu {
+    margin: 20px 0;
+    text-align: center;
+    position: relative;
+
+}
+.menu a{
+    color: white;
+    opacity: 0.4;
+    font-size: 19px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+
+.menu a:hover{
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+    transition: 2s;
+
+}
+
+.menu a:first-child {
+    opacity: 1;
+}
+
+
+.content{
+    position: absolute;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow-y: auto;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.titles{
+    margin-left: 30px;
+    margin-top: -50px;
+    
+    
+}
+.titles h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: -1px;
+}
+.titles h2{
+    color: rgb(134, 134, 134);
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: -1px;
+}
+.titles p{
+    color: rgb(105, 105, 105);
+    margin-top: 30px;
+}
+
+.titles span{
+    color: rgb(255, 115, 0);
+}
+
+.icon-social {
+    margin-top: 25px;
+    display: flex;
+    max-width: 150px;
+    
+}
+.icon-social img{
+    width: 30px;
+    margin: 0 8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 60%;
+
+    
+}
+.icon-social img:hover{
+    background-color: rgb(4, 152, 211);
+}
